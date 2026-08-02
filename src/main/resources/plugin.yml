@@ -1,0 +1,5 @@
+name: PlayerReportHelper
+version: '${project.version}'
+main: subude.gg.playerreporthelper.PlayerReportHelper
+api-version: '1.18'
+load: STARTUP
