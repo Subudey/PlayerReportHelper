@@ -3,3 +3,28 @@ version: '${project.version}'
 main: subude.gg.playerreporthelper.PlayerReportHelper
 api-version: '1.18'
 load: STARTUP
+author: subude
+
+commands:
+  report:
+    usage: /report <player> <reason>
+
+  reports:
+    usage: /reports
+
+permissions:
+
+  playerreporthelper.send:
+    default: true
+
+  playerreporthelper.notify:
+    default: op
+
+  playerreporthelper.permission:
+    default: op
+
+  playerreporthelper.statsmoderator:
+    default: op
+
+  playerreporthelper.reload:
+    default: op
